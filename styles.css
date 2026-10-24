@@ -128,4 +128,32 @@ main > ul {
 }
 
 footer {
-  background-color:
+  background-color: #1d3557;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .cv {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .projects {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .projects {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  main > img {
+    max-width: 300px;
+  }
+}
